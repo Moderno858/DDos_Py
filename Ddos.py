@@ -33,4 +33,4 @@ else:
 
 ip = sys.argv[1]
 port = sys.argv[2]
-
+quantia = int(sys.argv[3]
