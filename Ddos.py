@@ -14,5 +14,13 @@ Powered by Moderno \n\n
 def init(ip, port , main):
            client  = socket.socket(socket.AF_INET, socket,SOCK_STREAM)
            client.settimeout(0.03)
+           code = client.connect_ex((ip, int(port)))
+            if code == 0;
+                     print(*[==>] -Realizando ataque
+
+
+
+
+
 
 
