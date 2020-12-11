@@ -2,16 +2,14 @@ import socket
 import sys
 import os
 
-main = ""
-"
+main = """
 ____  ____   ___  ____  
 |  _ \|  _ \ / _ \/ ___| 
 | | | | | | | | | \___ \ 
 | |_| | |_| | |_| |___) |
 |____/|____/ \___/|____/ 
 
-Powered by Moderno\ n\ n ""
-"
+Powered by Moderno\ n\ n """
 count = 0
 
 def init(ip, port, main):
