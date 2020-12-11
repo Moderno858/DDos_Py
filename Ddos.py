@@ -22,3 +22,6 @@ def init(ip, port , main):
             else:
               '      print("Servido idisponivel ou porta fechada\n")
                     
+if len(sys.argv)< 5:
+print ('\n\n')
+print("Modo de uso:")
