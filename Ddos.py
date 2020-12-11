@@ -25,3 +25,4 @@ def init(ip, port , main):
 if len(sys.argv)< 5:
 print ('\n\n')
 print("Modo de uso:")
+print("Exe: root@localhost~# python DDOS.py 192.168.1.1 80")
