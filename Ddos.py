@@ -4,13 +4,15 @@ import  socket
 import sys
 import os
 
+main = """
 ____  ____   ___  ____  
 |  _ \|  _ \ / _ \/ ___| 
 | | | | | | | | | \___ \ 
 | |_| | |_| | |_| |___) |
 |____/|____/ \___/|____/ 
 
-Powered by Moderno \n\n
+Powered by Moderno \n\n"""
+count = 0
 
 def init(ip, port , main):
            client  = socket.socket(socket.AF_INET, socket,SOCK_STREAM)
@@ -33,4 +35,7 @@ else:
 
 ip = sys.argv[1]
 port = sys.argv[2]
-quantia = int(sys.argv[3]
+quantia = int(sys.argv[3])
+while count  < quantia:
+          count +=1
+        init(
