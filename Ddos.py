@@ -37,5 +37,4 @@ quantia = int(sys.argv[3])
 while count < quantia:
     count += 1
 init(ip, port, main)
-print([!]
-    "DDOS PARADO!")
+print([!] "DDOS PARADO")
