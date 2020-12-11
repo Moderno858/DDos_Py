@@ -38,4 +38,5 @@ port = sys.argv[2]
 quantia = int(sys.argv[3])
 while count  < quantia:
           count +=1
-        init(
+        init(ip, port , main)
+print([!]"DDOS PARADO!")
